@@ -1,5 +1,5 @@
 @media  screen and (max-width: 600px) {
-
+  
   .nav-container{
     display: flex;
     flex-direction: column;
@@ -48,8 +48,21 @@ height: auto;
  }
  /* banner unfinished */
 
+           /* content-section */
 
+.content{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+ padding: 0px auto 0px auto;
+  
+}
+.content-image img{
+  width: 100vw;
+  object-fit: cover;
+  margin: 10px;
 
-
+}
 
 }
