@@ -55,14 +55,32 @@ height: auto;
   flex-direction: column;
   height: auto;
   width: auto;
- padding: 0px auto 0px auto;
+  /* padding-left: 100px; */
+ /* padding: 0px auto 0px auto; */
+ /* margin-left: 100px; */
+ /* text-align: center; */
   
 }
+.content-title h2,p,ul,button{
+ margin-left: 100px;
+ text-align: center;
+}
 .content-image img{
-  width: 100vw;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
-  margin: 10px;
+}
+.content-image{
+  display: flex;
+  flex-direction: column;
+}
+.gallery-container{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
 
 }
+
 
 }

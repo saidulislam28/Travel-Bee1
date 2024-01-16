@@ -157,6 +157,14 @@ body{
   margin-top: 60px;
  
   text-align: center;}
+  .gallery-title h3{
+font-size: 48px;
+font-weight: 800;
+  }
+  .gallery-title p{
+font-size: 28px;
+font-weight: 400;
+  }
 
   .first-column{
     margin-top: 50px;
@@ -249,3 +257,92 @@ body{
   height: 100%;
  }
  /* gallery section finished here */
+ /* card section starts here */
+ .card-container{
+  margin: 100px auto 0 auto;
+  max-width: 1600px;
+
+  height: 100%;
+
+ }
+ .card-title{
+  text-align: center;
+  padding-bottom: 30px;
+ }
+ .card-title h3{
+  font-size: 48px;
+  font-weight: 800;
+
+ }
+ .card-title p{
+  font-size: 24px;
+  font-weight: 400;
+
+ }
+ .card-section1{
+ 
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+gap: 15px;
+ }
+ .card1{
+  height: 300px;
+  width: 50%;
+
+  padding: 20px;
+background-color: rgb(210, 238, 249);
+border-radius: 15px;
+ }
+ .card-section1 h3{
+  font-size: 36px;
+ }
+ .card-section1 p{
+  font-size: 18px;
+  color: #5A5A5D;
+ }
+
+ .card2{
+  height: 300px;
+  width: 50%;
+
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(245, 230, 214);
+ }
+ .card1 img{
+  width: 100px;
+  height: 100px;
+ }
+ .card2 img{
+  width: 100px;
+  height: 100px;
+ }
+ .second-card-container{
+ 
+  width: 50%;
+  height: 300px;
+  margin: 15px auto 0 auto;
+  border-radius: 15px;
+  background-color: rgb(251, 227, 231);
+ }
+ .second-card-container h3{
+  font-size: 36px;
+ }
+ .second-card-container p{
+  font-size: 18px;
+  color: #5A5A5D;
+ }
+ .second-card-container img{
+  width: 100px;
+  height: 100px;
+
+ }
+ .card3{
+  padding: 20px;
+ 
+ }
+
+
+
+ /* card section finished here */
