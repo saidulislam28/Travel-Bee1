@@ -411,7 +411,52 @@ padding-top: 10px;
   text-align: center;
   position: relative;
   transform: rotate(-45deg);
-  top: 20%;
-  left: 4%;
+  top: 54%;
+  left: 50%;
 }
  /* subscribe section finish here */
+
+ /* footer section start here */
+
+ .footer-description img{
+  width: 100px;
+  height: 100px;
+
+ }
+ .footer-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 100px;
+ }
+ .footer-description h3{
+  font-size: 40px;
+  font-weight: 800;
+}
+ .footer-container .para{
+  text-align: center;
+ }
+ .icons img{
+  width: 50px;
+  height: 50px;
+ }
+ .icons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ }
+ .footer-container .copyright{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+ }
+ .footer-container{
+  height: 600px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 0;
+  padding: 0;
+ }
+ hr{
+  width: 50%;
+ }
